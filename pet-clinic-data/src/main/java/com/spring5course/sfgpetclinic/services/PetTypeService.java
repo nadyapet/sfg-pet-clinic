@@ -1,4 +1,6 @@
 package com.spring5course.sfgpetclinic.services;
 
-public class PetTypeService {
+import com.spring5course.sfgpetclinic.model.PetType;
+
+public interface PetTypeService extends CrudService<PetType, Long> {
 }
